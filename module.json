@@ -44,8 +44,8 @@
       "flags": {}
     }
   ],
-  "manifest": "",
-  "download": "",
+  "manifest": "https://raw.githubusercontent.com/Introdile/pf2e-pooltoy/main/module.json",
+  "download": "https://github.com/Introdile/pf2e-pooltoy/archive/refs/heads/main.zip",
   "id": "pf2e-pooltoy",
   "compatibility": {
     "minimum": "9",
