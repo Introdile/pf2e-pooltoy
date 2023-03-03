@@ -1,0 +1,72 @@
+{
+  "title": "PF2e Ancestry - Pooltoy",
+  "description": "Adds compendiums that have everything you need to make pooltoy characters in PF2e",
+  "url": "",
+  "flags": {
+    "pf2e-pooltoy": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "pooltoy": "Pooltoy"
+        },
+        "featTraits": {
+          "pooltoy": "Pooltoy"
+        }
+      }
+    }
+  },
+  "version": "1.2",
+  "packs": [
+    {
+      "label": "PF2e Pooltoy - Feats",
+      "name": "pooltoy-feats",
+      "path": "packs/pf2e-pooltoy-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "PF2e Pooltoy - Ancestry",
+      "name": "pooltoy-ancestry",
+      "path": "packs/pf2e-pooltoy-ancestry.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "PF2e Pooltoy - Misc",
+      "name": "pooltoy-misc",
+      "path": "packs/pf2e-pooltoy-misc.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    }
+  ],
+  "manifest": "",
+  "download": "",
+  "id": "pf2e-pooltoy",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10.288"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "4.2.6"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Introdile",
+      "flags": {}
+    }
+  ]
+}
