@@ -3,6 +3,12 @@
  
  [You can find the Pooltoy Ancestry document here!](https://docs.google.com/document/d/1EdslV8SJhPLT_iCwnoorCLp3QTO7LwugVW-aNitBiy4/edit?usp=sharing)
  
+## Installation
+
+You can install this module into Foundry by going into the "Add-on Modules" tab in the setup page, going to "Install Module" and pasting the following link into the "Manifest URL" box.
+
+```https://raw.githubusercontent.com/Introdile/pf2e-pooltoy/main/module.json```
+ 
 ## Usage
 
 After installation and activation, you can find the ancestry in your compendium, spread across three folders with "PF2e Pooltoy" in their name. You only need to access PF2e Pooltoy - Ancestry manually!
